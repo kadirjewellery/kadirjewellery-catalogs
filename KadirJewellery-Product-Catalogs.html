@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kadir Jewellery – Product Catalogs</title>
+  <style>
+    :root{--green:#0E3B34;--gold:#C9A86A;--bg:#0E3B34;}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:#fff;display:flex;min-height:100vh;align-items:center;justify-content:center;padding:24px;}
+    .card{width:min(720px,100%);background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.14);border-radius:20px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.35);}
+    header{background:var(--gold);color:#07302a;padding:22px 22px 18px;}
+    header h1{margin:0;font-size:28px;letter-spacing:.2px;}
+    header h2{margin:6px 0 0;font-size:18px;font-weight:600;opacity:.9;}
+    main{padding:22px;}
+    .lead{margin:0 0 16px;font-size:18px;line-height:1.35;}
+    .lead small{display:block;opacity:.85;margin-top:6px;}
+    .btns{display:grid;gap:12px;margin-top:14px;}
+    a.btn{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 16px;border-radius:14px;border:1px solid rgba(255,255,255,.22);text-decoration:none;color:#fff;background:rgba(255,255,255,.08);}
+    a.btn:hover{background:rgba(255,255,255,.12);}
+    .left strong{display:block;font-size:16px;}
+    .left span{display:block;opacity:.85;margin-top:3px;}
+    footer{padding:16px 22px;border-top:1px solid rgba(255,255,255,.12);opacity:.9;font-size:13px;line-height:1.4;}
+    .muted{opacity:.75;}
+    code{background:rgba(255,255,255,.12);padding:2px 6px;border-radius:8px;}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <header>
+      <h1>Kadir Jewellery</h1>
+      <h2>Product Catalogs</h2>
+    </header>
+    <main>
+      <p class="lead">
+        Scan to view our collections
+        <small>Scansiona per vedere le nostre collezioni</small>
+      </p>
+
+      <div class="btns">
+        <a class="btn" href="Earring%20Catalog-KadirJewellery.pdf" target="_blank" rel="noopener">
+          <div class="left">
+            <strong>Earrings Catalog</strong>
+            <span>Catalogo Orecchini</span>
+          </div>
+          <div>PDF →</div>
+        </a>
+
+        <a class="btn" href="RING%20CATALOG-KadirJewellery.pdf" target="_blank" rel="noopener">
+          <div class="left">
+            <strong>Rings Catalog</strong>
+            <span>Catalogo Anelli</span>
+          </div>
+          <div>PDF →</div>
+        </a>
+
+        <a class="btn" href="Bracelet%20Catalog-KadirJewellery.pdf" target="_blank" rel="noopener">
+          <div class="left">
+            <strong>Bracelets Catalog</strong>
+            <span>Catalogo Bracciali</span>
+          </div>
+          <div>PDF →</div>
+        </a>
+      </div>
+    </main>
+
+    <footer>
+      <div><strong>Contact</strong>: kadirjewellery@gmail.com · +90 532 354 76 73 · Instagram: KadirJewellery</div>
+      <div class="muted" style="margin-top:8px;">
+        Tip: Upload this page + PDFs to your website/Drive, then generate a single QR code from the public page link.
+        Example link format: <code>https://yourdomain.com/catalogs</code>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
